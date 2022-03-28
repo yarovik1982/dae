@@ -51,5 +51,6 @@
    .nav__burger{
       display: block;
       padding-top: 18px;
+      position: relative;
    }
 } 
