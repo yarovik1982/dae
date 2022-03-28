@@ -15,29 +15,21 @@ img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
 body{
-    font-family:sans-serif;
+  font-family: 'Roboto';
 }
 .container{
-  max-width:1400px;
-  margin:50px auto;
-  padding:0 15px;
-  display: flex;
-  background-color: yellow;
-  align-items: center;
-
+  max-width:1460px;
+  margin:0 auto;
+  padding:0 10px;
 }
-.pagination, .wrap-btn{
-  flex: 1 1 50%;
-  align-self: start;
+.header__top-panel {
+  background-color:#B36050 ;
 }
-span{
-  font-size: 30px;
-  line-height: 36px;
-}
-button{
-  padding:10px;
-  cursor:pointer;
-  border:none;
-  border-radius:5px;
-  margin-left: -45px;
+.top-panel__text {
+  padding-top: 10px;
+  padding-bottom: 9px;
+  font-size: 17px;
+line-height: 27px;
+text-align: center;
+color: #F1D3B9;
 }
