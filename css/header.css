@@ -1,0 +1,126 @@
+.header__top-panel {
+   background-color:#B36050 ;
+ }
+ .top-panel__text {
+   padding-top: 10px;
+   padding-bottom: 9px;
+   font-size: 17px;
+ line-height: 27px;
+ text-align: center;
+ color: #F1D3B9;
+ }
+ .nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ }
+ .nav__item{
+   width:33.3333%;
+ }
+ .nav__item:nth-child(3){
+   display: flex;
+   justify-content: center;
+ }
+ .nav__item:nth-child(4){
+   display: flex;
+   justify-content: end;
+ }
+ .nav__list {
+   display: flex;
+   justify-content: start;
+   align-items: center;
+   padding: 16px 0;
+ }
+ .list__item + .list__item {
+   margin-left: 31px;
+ }
+ .list__link {
+   font-size: 18px;
+   line-height: 29px;
+   text-transform: capitalize;
+   color: #B4604D;
+ }
+ .nav__user {
+   display: flex;
+   align-items: center;
+   padding-top: 17px;
+ }
+ .nav__btn-auth {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 22px;
+   color: #B45F4D;
+   background-color: transparent;
+ }
+ .icon__account-icon {
+    display: none;
+}
+ .account-icon{
+    fill: #B36050;
+ }
+ .nav__user-cart {
+   margin-left: 8px;
+ }
+ .user-cart__icon {
+   padding-left: 12.25px;
+   padding-top: 0.75px;
+   padding-right: 26.25px;
+   padding-bottom: 3.75px;
+   position: relative;
+ }
+ .user-cart__icon::after{
+   position: absolute;
+   content:attr(data-cart);
+   top: 4px;
+   left: 35px;
+   width: 10px;
+   height: 18px;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 18px;
+   color: #B4604D;
+ }
+@media(max-width:1039px){
+   .list__link{
+      font-size: 16px;
+   }
+} 
+@media(max-width:971px){
+   .list__link{
+      font-size: 14px;
+   }
+} 
+@media(max-width:874px){
+   .list__link{
+      font-size: 12px;
+   }
+} 
+@media(max-width:794px){
+   .list__link{
+      font-size: 11px;
+   }
+} 
+@media(max-width:768px){
+   .nav__list{
+      display: none;
+   }
+   .nav__logo{
+      transform: translateX(-30px);
+      -webkit-transform: translateX(-30px);
+      -moz-transform: translateX(-30px);
+      -ms-transform: translateX(-30px);
+      -o-transform: translateX(-30px);
+}
+} 
+@media(max-width:575px){
+   .icon__account-icon{
+      display: block;
+   }
+   .nav__btn-auth{
+      display: none;
+   }
+   .user-cart__icon{
+      padding-left: 5px;
+   }
+   
+}
