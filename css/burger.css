@@ -50,7 +50,7 @@
  @media(max-width:768px){
    .nav__burger{
       display: block;
-      padding-top: 18px;
+      /* padding-top: 18px; */
       position: relative;
    }
 } 

@@ -17,6 +17,10 @@
    justify-content: space-between;
    position: relative;
    z-index: 3;
+   padding-left: 22px;
+   padding-right: 12px;
+   padding-top: 5px;
+   padding-bottom: 5px;
  }
  .nav__mobile-menu {
     position: absolute;
@@ -67,7 +71,7 @@
    display: flex;
    justify-content: start;
    align-items: center;
-   padding: 16px 0;
+   /* padding: 16px 0; */
  }
  .list__item + .list__item {
    margin-left: 31px;
@@ -81,7 +85,7 @@
  .nav__user {
    display: flex;
    align-items: center;
-   padding-top: 17px;
+   /* padding-top: 17px; */
  }
  .nav__btn-auth {
    font-weight: 400;
@@ -118,24 +122,27 @@
    line-height: 18px;
    color: #B4604D;
  }
-@media(max-width:1039px){
+@media(max-width:1079px){
    .list__link{
       font-size: 16px;
+   }
+   .list__item + .list__item{
+      margin-left: 25px;
    }
 } 
 @media(max-width:971px){
    .list__link{
-      font-size: 14px;
+      font-size: 13px;
    }
 } 
 @media(max-width:874px){
    .list__link{
-      font-size: 12px;
+      font-size: 11px;
    }
 } 
 @media(max-width:794px){
    .list__link{
-      font-size: 11px;
+      font-size: 10px;
    }
 } 
 @media(max-width:768px){
