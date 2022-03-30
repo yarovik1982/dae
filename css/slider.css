@@ -41,6 +41,21 @@
    line-height: 1.6rem;
    text-align: center;
    color: #B45F4D;
+   margin-bottom: 1rem;
+}
+.slide__btn{
+   width: 128px;
+   height: 48px;
+   background: #B45F4D;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 29px;
+   color: #FFFFFF;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 1rem;
+   text-transform: uppercase;
 }
 .slider__swiper-buuton-prev,.slider__swiper-buuton-next {
    width: 6.6rem;

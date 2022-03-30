@@ -13,3 +13,7 @@ const mobileMenu = document.querySelector(".nav__mobile-menu");
 function showMobileMenu () {
    mobileMenu.classList.toggle('active');
 }
+
+import { getPageLocation } from "./Location.js";
+
+getPageLocation();

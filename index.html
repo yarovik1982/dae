@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="css/burger.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/banner.css">
     <link rel="stylesheet" href="css/media.css">
-    <script src="js/main.js" defer></script>
+    <script src="js/main.js" type="module" defer></script>
     <title>Dae</title>
 </head>
 <body>
@@ -132,67 +133,72 @@
                 <div class="swiper slider__swiper">
     
                     <div class="swiper-wrapper slider__swiper-wrapper">
-    
-                      <div class="swiper-slide slider__swiper-slide">
-                          <!-- <div class="slide"> -->
-                              <div class="slide__img">
-                                  <img src="images/image-product-1.png" alt="">
-                              </div>
-                              <h4 class="slide__title">The Daedreamer Set</h4>
-                              <span class="slide__price">$49.00</span>
-                          <!-- </div> -->
-                      </div>
-    
-                      <div class="swiper-slide slider__swiper-slide">
-                        <!-- <div class="slide"> -->
-                            <div class="slide__img">
-                                <img src="images/image-product-2.png" alt="">
-                            </div>
-                            <h4 class="slide__title">The Daedreamer Set</h4>
-                            <span class="slide__price">$49.00</span>
-                        <!-- </div> -->
-                      </div>
-    
-                      <div class="swiper-slide slider__swiper-slide">
-                        <div class="slide">
-                            <div class="slide__img">
-                                <img src="images/image-product-3.png" alt="">
-                            </div>
-                            <h4 class="slide__title">The Daedreamer Set</h4>
-                            <span class="slide__price">$49.00</span>
-                        </div>
-                      </div>
-    
-                      <div class="swiper-slide slider__swiper-slide">
-                        <!-- <div class="slide"> -->
-                            <div class="slide__img">
+                    
+                        <div class="swiper-slide slider__swiper-slide">
+                    
+                            <a href="/product.html" class="slide__img" title="Перейти на страницу продукта">
                                 <img src="images/image-product-1.png" alt="">
-                            </div>
+                            </a>
                             <h4 class="slide__title">The Daedreamer Set</h4>
                             <span class="slide__price">$49.00</span>
-                        <!-- </div> -->
-                    </div>
-    
-                    <div class="swiper-slide slider__swiper-slide">
-                      <!-- <div class="slide"> -->
-                          <div class="slide__img">
-                              <img src="images/image-product-2.png" alt="">
-                          </div>
-                          <h4 class="slide__title">The Daedreamer Set</h4>
-                          <span class="slide__price">$49.00</span>
-                      <!-- </div> -->
-                    </div>
-    
-                    <div class="swiper-slide slider__swiper-slide">
-                      <!-- <div class="slide"> -->
-                          <div class="slide__img">
-                              <img src="images/image-product-3.png" alt="">
-                          </div>
-                          <h4 class="slide__title">The Daedreamer Set</h4>
-                          <span class="slide__price">$49.00</span>
-                      </div>
-                    <!-- </div> -->
-    
+                            <button class="slide__btn">add cart</button>
+                    
+                        </div>
+                    
+                        <div class="swiper-slide slider__swiper-slide">
+                    
+                            <a href="/product.html" class="slide__img" title="Перейти на страницу продукта">
+                                <img src="images/image-product-2.png" alt="">
+                            </a>
+                            <h4 class="slide__title">Shampoo</h4>
+                            <span class="slide__price">$24.00 to $64.00</span>
+                            <button class="slide__btn">add cart</button>
+                    
+                        </div>
+                    
+                        <div class="swiper-slide slider__swiper-slide">
+                            
+                                <a href="/product.html" class="slide__img" title="Перейти на страницу продукта">
+                                    <img src="images/image-product-3.png" alt="">
+                                </a>
+                                <h4 class="slide__title">Conditioner</h4>
+                                <span class="slide__price">$24.00 to $64.00</span>
+                                <button class="slide__btn">add cart</button>
+                            
+                        </div>
+                    
+                        <div class="swiper-slide slider__swiper-slide">
+                    
+                            <a href="/product.html" class="slide__img" title="Перейти на страницу продукта">
+                                <img src="images/image-product-1.png" alt="">
+                            </a>
+                            <h4 class="slide__title">The Daedreamer Set</h4>
+                            <span class="slide__price">$49.00</span>
+                            <button class="slide__btn">add cart</button>
+                    
+                        </div>
+                    
+                        <div class="swiper-slide slider__swiper-slide">
+                    
+                            <a href="/product.html" class="slide__img" title="Перейти на страницу продукта">
+                                <img src="images/image-product-2.png" alt="">
+                            </a>
+                            <h4 class="slide__title">Shampoo</h4>
+                            <span class="slide__price">$24.00 to $64.00</span>
+                            <button class="slide__btn">add cart</button>
+                    
+                        </div>
+                    
+                        <div class="swiper-slide slider__swiper-slide">
+                    
+                            <a href="/product.html" class="slide__img" title="Перейти на страницу продукта">
+                                <img src="images/image-product-3.png" alt="">
+                            </a>
+                            <h4 class="slide__title">Conditioner</h4>
+                            <span class="slide__price">$24.00 to $64.00</span>
+                            <button class="slide__btn">add cart</button>
+                        </div>
+                    
                     </div>
                   
                     <div class="slider__swiper-buttons">
@@ -211,7 +217,14 @@
 
     <section class="banner">
         <div class="container">
-
+            <div class="banner__bg">
+                <div class="banner__bg-bottom">
+                    <div class="bg-bottom__row">
+                        <h3 class="bg-bottom__title">Feel the warmth of the desert wherever you are.</h3>
+                        <a href="#" class="bg-bottom__link">Shop Sets</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
