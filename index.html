@@ -7,11 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/burger.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="js/main.js" defer></script>
     <title>Dae</title>
 </head>
@@ -105,13 +107,16 @@
                     <button class="hero__bg-btn">Shop Now</button>
                 </div>
             </div>
-            <div class="hero__content">
-                <div class="hero__content-bg">
-                    <div class="hero__content-inner">
-                        <p class="hero__content-text">Ready To Get Drenched?</p>
-                        <h2 class="hero__content-title">Meet Monsoon Moisture Mask</h2>
-                        <a href="#" class="hero__content-link">Shop Now</a>
-                    </div>
+        </div>
+    </section>
+
+    <section class="hero__content">
+        <div class="container">
+            <div class="hero__content-bg">
+                <div class="hero__content-inner">
+                    <p class="hero__content-text">Ready To Get Drenched?</p>
+                    <h2 class="hero__content-title">Meet Monsoon Moisture Mask</h2>
+                    <a href="#" class="hero__content-link">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -119,11 +124,100 @@
 
     <section class="slider">
         <div class="container">
-            <div class="slider__row">
-                <h3 class="slider__title">Pick a Pretty Bottle</h3>
+            <div class="slider__container">
+                <div class="slider__row">
+                    <h3 class="slider__title">Pick a Pretty Bottle</h3>
+                </div>
+    
+                <div class="swiper slider__swiper">
+    
+                    <div class="swiper-wrapper slider__swiper-wrapper">
+    
+                      <div class="swiper-slide slider__swiper-slide">
+                          <!-- <div class="slide"> -->
+                              <div class="slide__img">
+                                  <img src="images/image-product-1.png" alt="">
+                              </div>
+                              <h4 class="slide__title">The Daedreamer Set</h4>
+                              <span class="slide__price">$49.00</span>
+                          <!-- </div> -->
+                      </div>
+    
+                      <div class="swiper-slide slider__swiper-slide">
+                        <!-- <div class="slide"> -->
+                            <div class="slide__img">
+                                <img src="images/image-product-2.png" alt="">
+                            </div>
+                            <h4 class="slide__title">The Daedreamer Set</h4>
+                            <span class="slide__price">$49.00</span>
+                        <!-- </div> -->
+                      </div>
+    
+                      <div class="swiper-slide slider__swiper-slide">
+                        <div class="slide">
+                            <div class="slide__img">
+                                <img src="images/image-product-3.png" alt="">
+                            </div>
+                            <h4 class="slide__title">The Daedreamer Set</h4>
+                            <span class="slide__price">$49.00</span>
+                        </div>
+                      </div>
+    
+                      <div class="swiper-slide slider__swiper-slide">
+                        <!-- <div class="slide"> -->
+                            <div class="slide__img">
+                                <img src="images/image-product-1.png" alt="">
+                            </div>
+                            <h4 class="slide__title">The Daedreamer Set</h4>
+                            <span class="slide__price">$49.00</span>
+                        <!-- </div> -->
+                    </div>
+    
+                    <div class="swiper-slide slider__swiper-slide">
+                      <!-- <div class="slide"> -->
+                          <div class="slide__img">
+                              <img src="images/image-product-2.png" alt="">
+                          </div>
+                          <h4 class="slide__title">The Daedreamer Set</h4>
+                          <span class="slide__price">$49.00</span>
+                      <!-- </div> -->
+                    </div>
+    
+                    <div class="swiper-slide slider__swiper-slide">
+                      <!-- <div class="slide"> -->
+                          <div class="slide__img">
+                              <img src="images/image-product-3.png" alt="">
+                          </div>
+                          <h4 class="slide__title">The Daedreamer Set</h4>
+                          <span class="slide__price">$49.00</span>
+                      </div>
+                    <!-- </div> -->
+    
+                    </div>
+                  
+                    <div class="slider__swiper-buttons">
+                        <div class="slider__swiper-button-next">
+                            <img src="images/arrow-left.svg" alt="">
+                        </div>
+                        <div class="slider__swiper-button-prev">
+                            <img src="images/arrow-right.svg" alt="">
+                        </div>
+                        
+                    </div>
+                  </div>
             </div>
         </div>
     </section>
+
+    <section class="banner">
+        <div class="container">
+
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/slider.js"></script>
 </body>
 </html>
 

@@ -1,0 +1,58 @@
+.slider__container{
+   padding-bottom: 4.5rem;
+   background-color: #F6F4EC;
+}
+.slider__row {
+   padding-top: 3.9rem;
+}
+.slider__title {
+   text-align: center;
+   font-weight: 400;
+   font-size: 2.3rem;
+   line-height: 3.9rem;
+   text-align: center;
+   text-transform: capitalize;
+   color: #B45F4D;
+   margin-bottom: 4.4rem;
+}
+.slider__swiper {
+   max-width: 130rem;
+}
+.slider__swiper-wrapper {
+   width:100%;
+   display: flex;
+}
+.slide__img img{
+   width: 100%;
+   object-fit: cover;
+}
+.slide__title {
+   font-weight: 400;
+   font-size: 1.8rem;
+   line-height: 2.5rem;
+   text-transform: uppercase;
+   color: #B45F4D;
+   margin-top: 0.884rem;
+   margin-bottom: 0.7rem;
+}
+.slide__price {
+   font-weight: 400;
+   font-size: 1.6rem;
+   line-height: 1.6rem;
+   text-align: center;
+   color: #B45F4D;
+}
+.slider__swiper-buuton-prev,.slider__swiper-buuton-next {
+   width: 6.6rem;
+   height: 0.9rem;
+}
+.slider__swiper-buttons {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 100%;
+   margin: 0 auto;
+   margin-top: 2.8rem;
+}
+
+

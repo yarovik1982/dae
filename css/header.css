@@ -4,10 +4,10 @@
    z-index: 3;
  }
  .top-panel__text {
-   padding-top: 10px;
-   padding-bottom: 9px;
-   font-size: 17px;
- line-height: 27px;
+   padding-top: 1rem;
+   padding-bottom: 0.9rem;
+   font-size: 1.7rem;
+ line-height: 2.7rem;
  text-align: center;
  color: #F1D3B9;
  }
@@ -17,10 +17,10 @@
    justify-content: space-between;
    position: relative;
    z-index: 3;
-   padding-left: 22px;
-   padding-right: 12px;
-   padding-top: 5px;
-   padding-bottom: 5px;
+   padding-left: 2.2rem;
+   padding-right: 1.2rem;
+   padding-top: 0.5rem;
+   padding-bottom: 0.5rem;
  }
  .nav__mobile-menu {
     position: absolute;
@@ -28,7 +28,7 @@
     height: 100vh;
     top: 0;
     left: -100%;
-    background-color: rgba(0,0,0,.3);
+    background-color: rgba(0,0,0,.8);
     z-index: 2;
     transition: left ease .3s;
     -webkit-transition: left ease .3s;
@@ -45,16 +45,16 @@
    -o-transition: left ease .3s;
 }
 .nav__mobile-list {
-   padding-left: 20px;
-   padding-top: 95px;
-   margin-top: 40px;
+   padding-left: 2rem;
+   padding-top: 10.5rem;
+   margin-top: 4rem;
 }
 .list__mobile-item {
-   margin-bottom: 20px;
+   margin-bottom: 2rem;
 }
 .list__mobile-link {
    color:#B36050;
-   font-size: 20px;
+   font-size: 2rem;
 }
  .nav__item{
    width:33.3333%;
@@ -74,11 +74,11 @@
    /* padding: 16px 0; */
  }
  .list__item + .list__item {
-   margin-left: 31px;
+   margin-left: 3.1rem;
  }
  .list__link {
-   font-size: 18px;
-   line-height: 29px;
+   font-size: 1.8rem;
+   line-height: 2.9rem;
    text-transform: capitalize;
    color: #B4604D;
  }
@@ -122,7 +122,7 @@
    line-height: 18px;
    color: #B4604D;
  }
-@media(max-width:1079px){
+/* @media(max-width:1079px){
    .list__link{
       font-size: 16px;
    }
@@ -144,17 +144,17 @@
    .list__link{
       font-size: 10px;
    }
-} 
+}  */
 @media(max-width:768px){
    .nav__list{
       display: none;
    }
    .nav__logo{
-      transform: translateX(-30px);
-      -webkit-transform: translateX(-30px);
-      -moz-transform: translateX(-30px);
-      -ms-transform: translateX(-30px);
-      -o-transform: translateX(-30px);
+      transform: translateX(-3rem);
+      -webkit-transform: translateX(-3rem);
+      -moz-transform: translateX(-3rem);
+      -ms-transform: translateX(-3rem);
+      -o-transform: translateX(-3rem);
 }
 } 
 @media(max-width:575px){
@@ -165,7 +165,7 @@
       display: none;
    }
    .user-cart__icon{
-      padding-left: 5px;
+      padding-left: 0.5rem;
    }
    
 }

@@ -47,7 +47,7 @@
    -ms-transition: all aese 0.3s;
    -o-transition: all aese 0.3s;
  }
- @media(max-width:768px){
+ @media(max-width:48em){
    .nav__burger{
       display: block;
       /* padding-top: 18px; */
