@@ -1,0 +1,42 @@
+
+.follow__row {
+   margin-top: 2.5rem;
+}
+.follow__title {
+   text-align: center;
+   font-weight: 400;
+   font-size: 2.3rem;
+   line-height: 1.69;
+   text-transform: capitalize;
+   color: #000000;
+   margin-bottom: 4.316rem;
+}
+.follow__container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 2.6rem;
+   flex-wrap: wrap;
+   gap: 10px;
+}
+.follow__container-item{
+   position: relative;
+   margin-bottom: 1rem;
+   width: 230.39px;
+   height: 129.81px;
+   
+}
+.follow__container-item img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.follow__container-item::before{
+   position: absolute;
+   content:"";
+   width: 46px;
+   height: 46px;
+   top: 70px;
+   left: calc(50% - 23px);
+   background-image: url(../images/dae.png);
+}

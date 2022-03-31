@@ -53,7 +53,9 @@
    .slider__swiper-buttons{
       display: none;
    }
-
+   .story__body{
+      overflow-x: auto;
+   }
 }
 
 @media (max-width: 44em) {
