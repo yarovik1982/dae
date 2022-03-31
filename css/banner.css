@@ -22,14 +22,14 @@
 }
 .bg-bottom__title {
    font-weight: 400;
-   font-size: 20px;
-   line-height: 32px;
+   font-size: 2rem;
+   line-height: 3.2rem;
    text-transform: uppercase;
    color: #F6F4EC;
 }
 .bg-bottom__link {
    font-weight: 400;
-   font-size: 18px;
-   line-height: 29px;
+   font-size: 1.8rem;
+   line-height: 2.9rem;
    color: #F6F4EC;
 }
