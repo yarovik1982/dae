@@ -15,5 +15,7 @@ function showMobileMenu () {
 }
 
 import { getPageLocation } from "./Location.js";
+import Product from "./Product.js"
 
 getPageLocation();
+Product();

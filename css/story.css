@@ -35,8 +35,8 @@
 .story__content {
    background-color: white;
     margin-left: -5rem;
-    padding-left: 5rem;
-    padding-right: 5.2rem;
+    /* padding-left: 5rem; */
+    /* padding-right: 5.2rem; */
     padding-top: 50px;
     padding-bottom: 5rem;
     width: 43%;
@@ -49,6 +49,9 @@
    color: #B45F4D;
    margin-bottom: 2.2rem;
    text-align: center;
+}
+.story__content-inner{
+   padding: 30px;
 }
 .story__content-text {
    max-width: 41.6rem;

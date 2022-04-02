@@ -1,7 +1,7 @@
-
-.footer__container {
+.footer{
    background-color: #F6F4EC;
 }
+
 .footer__body{
    padding-top: 61.75px;
    padding-bottom:60.75px ;
@@ -38,6 +38,7 @@
    line-height: 22px;
    color: #C17C6C;
    margin-bottom: 12px;
+   text-align: center;
 }
 .footer__form {
    margin-bottom: 19.88px;
@@ -57,10 +58,7 @@
 }
 .footer__input-button {
    margin-right: 12px;
-   /* font-weight: 400; */
-   /* font-size: 13px; */
-   /* line-height: 0px; */
-   /* text-transform: uppercase; */
+   height: 100%;
    color: #B45F4D;
 }
 .footer__text {
@@ -69,6 +67,7 @@
    font-size: 1.4rem;
    line-height: 22px;
    color: #C17C6C;
+   text-align: center;
 }
 .footer__copyrite {
    font-weight: 400;

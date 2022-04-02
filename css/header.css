@@ -46,7 +46,7 @@
    -o-transition: left ease .3s;
 }
 .nav__mobile-list {
-   padding-left: 2rem;
+   padding-left: 4rem;
    padding-top: 10.5rem;
    margin-top: 8rem;
 }
@@ -55,7 +55,7 @@
 }
 .list__mobile-link {
    color:#B36050;
-   font-size: 2rem;
+   font-size: 3rem;
 }
  .nav__item{
    width:33.3333%;

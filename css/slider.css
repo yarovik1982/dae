@@ -69,5 +69,8 @@
    margin: 0 auto;
    margin-top: 2.8rem;
 }
-
+.slider__swiper-button-next,.slider__swiper-button-prev{
+   cursor: pointer;
+   padding: 5px 0;
+}
 

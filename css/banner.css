@@ -18,18 +18,19 @@
 .bg-bottom__row {
    padding: 3rem;
    display: flex;
+   align-items: end;
    justify-content: space-between;
 }
 .bg-bottom__title {
    font-weight: 400;
-   font-size: 2rem;
+   font-size: 1.6rem;
    line-height: 3.2rem;
    text-transform: uppercase;
    color: #F6F4EC;
 }
 .bg-bottom__link {
    font-weight: 400;
-   font-size: 1.8rem;
+   font-size: 1.5rem;
    line-height: 2.9rem;
    color: #F6F4EC;
 }
