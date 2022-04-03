@@ -29,7 +29,9 @@ function Product(){
    slideImages.forEach(item => {
       item.addEventListener("click", function(){
          const attrDataId = this.dataset.id;
+         console.log(window.location.pathname);
          if(window.location.pathname == "/index.html"){
+            
             window.location.pathname = `/product-${attrDataId}.html`;
          }else{
             return false;
