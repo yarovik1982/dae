@@ -23,13 +23,33 @@ function Product(){
       },
    ]
 
-   const slider = document.querySelector(".slider__swiper");
-
+   const slideImages = document.querySelectorAll(".slide__img");
+   // const currentLocation = window.location.pathname;
    
-   slider.addEventListener("click", event => {
-      const currentTarget = event.target;
-      const attrDataId = currentTarget.closest(".slide__img").dataset.id;
+   slideImages.forEach(item => {
+      item.addEventListener("click", function(){
+         const attrDataId = this.dataset.id;
+         if(window.location.pathname == "/index.html"){
+            window.location.pathname = `/product-${attrDataId}.html`;
+         }else{
+            return false;
+         }
+      })
    })
+   
+
+   const writeData = (str)=>{
+      return localStorage.setItem(str,JSON.stringify( goods))
+   }
+
+   // const createCartStorage = (str) => {
+   //    return localStorage.setItem(str, JSON.stringify([...]));
+   // }
+     
+   window.onload = function(){
+      // createCartStorage("cart")
+      writeData("goods");
+   }
    
    
 }

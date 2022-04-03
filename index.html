@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/media.css">
     <script src="js/main.js" type="module" defer></script>
+    <script src="js/Cart.js" defer></script>
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <title>Dae</title>
 </head>
@@ -83,7 +84,9 @@
                     </div>
                     <div class="nav__item">
                         <div class="nav__logo">
-                            <img src="images/logo.svg" alt="Logo" class="nav__logo-img">
+                            <a href="/product.html" class="logo__link">
+                                <img src="images/logo.svg" alt="Logo" class="nav__logo-img">
+                            </a>
                         </div>
                     </div>
                     <div class="nav__item">
@@ -93,7 +96,7 @@
                             </div>
                             <button class="nav__btn-auth">Account</button>
                             <div class="nav__user-cart">
-                                <div class="user-cart__icon" data-cart="0">
+                                <div class="user-cart__icon" data-cart="0" id="cart">
                                     
                                     <img src="images/cart.svg" alt="" class="user-cart__icon-img">
                                 </div>

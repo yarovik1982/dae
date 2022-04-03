@@ -1,3 +1,8 @@
+import { getPageLocation } from "./Location.js";
+import Product from "./Product.js"
+// import {getArrayGoods} from "./Cart.js"
+
+
 document.addEventListener("click", function(event){
    const el = event.target;
    if(el.closest("[data-burger]")){
@@ -6,16 +11,22 @@ document.addEventListener("click", function(event){
          item.classList.toggle("toggle");
       })
    }
+   if(el == "button" && el.dataset.id){
+      console.log(el);
+   }
 }, true)
 
 const mobileMenu = document.querySelector(".nav__mobile-menu");
+
+// console.log(storageGoods);
+console.log(cart.dataset.cart);
 
 function showMobileMenu () {
    mobileMenu.classList.toggle('active');
 }
 
-import { getPageLocation } from "./Location.js";
-import Product from "./Product.js"
 
 getPageLocation();
 Product();
+// getArrayGoods(storageGoods);
+// createArrayCart();

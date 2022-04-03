@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/header.css">
+   <link rel="stylesheet" href="css/burger.css">
+   <link rel="stylesheet" href="css/breadcrumbs.css">
+   <link rel="stylesheet" href="css/product.css">
+   <link rel="stylesheet" href="css/footer.css">
+   <link rel="stylesheet" href="css/media.css">
+
+   <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+
+   <script src="js/main.js" type="module" defer></script>
+   <script src="js/Cart.js" defer></script>
+   <title>Product</title>
+</head>
+<body>
+    <div class="slider__swiper none"></div>
+   <header class="header">
+      <div class="header__top-panel">
+              <div class="container">
+              <p class="top-panel__text">Free Shipping on US Orders Over $60</p>
+          </div>
+      </div>
+      <div class="header__bottom-panel">
+          <div class="nav__mobile-menu">
+              <ul class="nav__mobile-list">
+                  <li class="list__mobile-item">
+                      <a href="#" class="list__mobile-link">Shop</a>
+                  </li>
+                  <li class="list__mobile-item">
+                      <a href="#" class="list__mobile-link">The Edit</a>
+                  </li>
+                  <li class="list__mobile-item">
+                      <a href="#" class="list__mobile-link">Our Story</a>
+                  </li>
+                  <li class="list__mobile-item">
+                      <a href="#" class="list__mobile-link">Reviews</a>
+                  </li>
+              </ul>
+          </div>
+          <div class="container">
+              <nav class="nav">
+                  <div class="nav__burger">
+                      <div class="burger">
+                          <svg class="svg-burger toggle" data-burger width="30" height="27" viewBox="0 0 30 27" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+           
+                             <line class="line-hor" x1="0" y1="1.5" x2="30" y2="1.5" stroke-width="3" stroke="#B36050" />
+                             <line class="line-hor" x1="0" y1="13.5" x2="30" y2="13.5" stroke-width="3" stroke="#B36050" />
+                             <line class="line-hor" x1="0" y1="25.5" x2="30" y2="25.5" stroke-width="3" stroke="#B36050" />
+                          </svg>
+           
+                          <svg class="svg-cross toggle" data-burger width="30" height="27" viewBox="0 0 30 27" fill="none"
+                             xmlns="http://www.w3.org/2000/svg">
+                             <line class="line-rotate" x1="0" x2="30" y1="0" y2="27" stroke-width="3" stroke="#B36050" />
+                             <line class="line-rotate" x1="0" x2="30" y1="27" y2="0" stroke-width="3" stroke="#B36050" />
+                          </svg>
+                       </div>
+                  </div>
+                  <div class="nav__item">
+                      <ul class="nav__list">
+                          <li class="list__item">
+                              <a href="#" class="list__link">Shop</a>
+                          </li>
+                          <li class="list__item">
+                              <a href="#" class="list__link">The Edit</a>
+                          </li>
+                          <li class="list__item">
+                              <a href="#" class="list__link">Our Story</a>
+                          </li>
+                          <li class="list__item">
+                              <a href="#" class="list__link">Reviews</a>
+                          </li>
+                      </ul>
+                  </div>
+                  <div class="nav__item">
+                      <div class="nav__logo">
+                          <img src="images/logo.svg" alt="Logo" class="nav__logo-img">
+                      </div>
+                  </div>
+                  <div class="nav__item">
+                      <div class="nav__user">
+                          <div class="icon__account-icon">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path class="account-icon" d="M20.822 18.096c-3.439-.794-6.64-1.49-5.09-4.418 4.72-8.912 1.251-13.678-3.732-13.678-5.082 0-8.464 4.949-3.732 13.678 1.597 2.945-1.725 3.641-5.09 4.418-3.073.71-3.188 2.236-3.178 4.904l.004 1h23.99l.004-.969c.012-2.688-.092-4.222-3.176-4.935z"/></svg>
+                          </div>
+                          <button class="nav__btn-auth">Account</button>
+                          <div class="nav__user-cart">
+                              <div class="user-cart__icon" data-cart="0" id="cart">
+                                  
+                                  <img src="images/cart.svg" alt="" class="user-cart__icon-img">
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </nav>
+          </div>
+      </div>
+   </header>
+
+   <main class="main">
+
+    <div class="breadcrumbs">
+        <div class="container">
+           <div class="breadcrumds__inner">
+              <a href="/index.html" class="breadcrumbs__link">home</a>
+              <a href="#" class="breadcrumbs__link">product</a>
+           </div>
+        </div>
+
+    </div>
+
+    <section class="product">
+        <div class="container">
+           <div class="product__container" id="product-container">
+            <div class="product__row">
+
+                <div class="product__col">
+                    <div class="product__inner-img">
+                        <div class="product__image">
+                            <img src="/images/image-product-1.png" alt="">
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="product__col">
+                    <div class="product__inner-descript">
+                        <p class="product__descript">
+                            We`re a haircare line based in sunny Arizona. Our products are made up of the many things that make our home special, including the scent of orange blossoms in the air, colors of majestic sunsets and nourishing ingredients derived from desert botanicals. We believe haircare doesn`t have to be complicated and aimed to make a line that is simple and effective. We hope that dae plays a special role in your everyday hair routine from sunrise to sunset and allows you to feel the warmth of the desert wherever you are.
+                        </p>
+                        <span class="product__title">The Daedreamer Set</span>
+                        <span class="product__price">$49.00</span>
+                        <button class="product__btn" data-id="1">Add Cart</button>
+                    </div>  
+                </div>
+
+            </div>
+           </div>
+        </div>
+    </section>
+
+   </main>
+
+   <footer class="footer">
+    <div class="container">
+        <div class="footer__container">
+           <div class="footer__body">
+            <div class="footer__row">
+                <div class="footer__col">
+                    <div class="footer__col-left">
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">Sustainability</a></li>
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">Contact Us</a></li>
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">FAQ</a></li>
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">Careers</a></li>
+                        </ul>
+                        <ul class="footer__list">
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">Privacy Policy</a></li>
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">CA Privacy Rights</a></li>
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">Terms of Use</a></li>
+                            <li class="footer__list-item"><a href="#" class="footer__list-link">Newsletter</a></li>
+                        </ul>
+                    </div>
+                </div>
+               
+                <div class="footer__col">
+                    <p class="footer__par">ONLY GOOD HAIR DAES AHEAD—AND 10% OFF YOUR FIRST ORDER</p>
+                    <form action="#" class="footer__form">
+                        <div class="footer__input">
+                            <input type="text" class="footer__input-input">
+                            <input type="submit" value="SUBSCRIBE"  class="footer__input-button">
+                        </div>
+                    </form>
+                    <span class="footer__text">Want to shop in person? Swing by our showroom.</span>
+                    <span class="footer__text">M-F, 10am-2pm 5051 E Indigo St, Suite 105, Mesa, AZ 85205</span>
+                </div>
+            </div>
+            <div class="footer__row">
+                <span class="footer__copyrite">© 2021. All rights reserved.</span>
+            </div>
+           </div>
+        </div>
+    </div>
+   </footer>
+   
+</body>
+</html>

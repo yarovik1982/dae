@@ -1,7 +1,4 @@
-.product {
-}
-.container {
-}
+
 .product__row {
    padding: 20px 0;
    display: flex;
@@ -14,8 +11,6 @@
    display: flex;
    justify-content: center;
 }
-.product__inner-img {
-}
 .product__image {
    display: flex;
    justify-content: center;
@@ -24,6 +19,7 @@
    max-width: 500px;
 }
 .product__descript {
+   padding-left: 2rem;
    color: #B45F4D;
    font-size: 2rem;
    line-height: 1.57;
@@ -47,9 +43,9 @@
    display: block;
    height: 40px;
    color: #fff;
-   font-style: 2rem;
+   font-size: 2rem;
    line-height: 40px;
    margin: 0 auto;
-   width: 90px;
+   width: 100px;
    background-color: #B36050;
 }
