@@ -30,9 +30,9 @@ function Product(){
       item.addEventListener("click", function(){
          const attrDataId = this.dataset.id;
          console.log(window.location.pathname);
-         if(window.location.pathname == "/dae/index.html"){
+         if(window.location.pathname == "/dae/#"){
             
-            window.location.pathname = `/dae/product-${attrDataId}.html`;
+            window.location.pathname = `/dae/product-${attrDataId}`;
          }else{
             return false;
          }
